@@ -5,6 +5,9 @@ class SchoolForm(forms.ModelForm):
     class Meta:
         model=School
         fields="__all__"
+        #fields=['sname','sloc']
+        #exclude=['sloc']
+
 
 class BranchForm(forms.ModelForm):
     class Meta:

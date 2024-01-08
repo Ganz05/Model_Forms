@@ -24,3 +24,9 @@ urlpatterns = [
     path('insert_branch',insert_branch,name='insert_branch'),
     path('insert_student',insert_student,name='insert_student'),
 ]
+
+admin.site.site_header='SCHOOL-And-STUDENT Information:-'
+
+admin.site.index_title='Click To View More Here:-'
+
+admin.site.site_title='School-Application'
